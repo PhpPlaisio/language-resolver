@@ -1,0 +1,19 @@
+{
+  "name": "setbased/abc-language-resolver",
+  "description": "ABC Framework: Language Resolver",
+  "keywords": [
+    "ABC-Framework",
+    "Language",
+    "Resolver"
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SetBased\\Abc\\LanguageResolver\\": "src/"
+    }
+  }
+}
