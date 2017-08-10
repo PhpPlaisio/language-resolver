@@ -9,11 +9,11 @@ interface LanguageResolver
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Returns the code of the language in which the response must be drafted.
+   * Returns the ID of the language in which the response must be drafted.
    *
-   * @return string
+   * @return int
    */
-  public function getLanguageCode();
+  public function getLanId();
 
   //--------------------------------------------------------------------------------------------------------------------
 }
