@@ -1,19 +1,18 @@
 {
-  "name": "setbased/abc-language-resolver",
-  "description": "ABC-Framework: Language Resolver",
+  "name": "plaisio/language-resolver",
+  "description": "PhpPlaisio: Language Resolver",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "Language",
     "Resolver"
   ],
+  "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
-  "type": "library",
-  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\LanguageResolver\\": "src/"
+      "Plaisio\\LanguageResolver\\": "src/"
     }
   }
 }

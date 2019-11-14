@@ -1,9 +1,10 @@
 <?php
+declare(strict_types=1);
 
-namespace SetBased\Abc\LanguageResolver;
+namespace Plaisio\LanguageResolver;
 
 /**
- * Interface for classes for resolving the language in which a response must be drafted.
+ * Interface resolving the language in which a response must be drafted.
  */
 interface LanguageResolver
 {
