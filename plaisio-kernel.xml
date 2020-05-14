@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\LanguageResolver\LanguageResolver</type>
+            <name>languageResolver</name>
+            <description>he helper object for resolving the code of the language in which the response must be drafted.</description>
+        </property>
+    </properties>
+</kernel>
